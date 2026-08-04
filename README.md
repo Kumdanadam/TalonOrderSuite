@@ -20,6 +20,12 @@
 * **Çoklu Dil Desteği:** Arayüz üzerinden anlık olarak **Türkçe** veya **İngilizce** diline geçiş yapabilirsiniz.
 * **Oto-Güncelleme (Auto-Update):** GitHub reposunu takip ederek yeni güncellemeleri otomatik algılar ve tek tıkla güncellemenize olanak tanır.
 
+### 📥 Kurulum
+1. EDMC uygulamasının kapalı olduğundan emin olun.
+2. Bu repodaki dosyaları indirin ve EDMC'nin eklenti dizinine (`%LOCALAPPDATA%\EDMarketConnector\plugins\`) **"Kos Tracker"** adında bir klasör açarak içine atın.
+3. EDMC'yi başlatın; eklenti otomatik olarak yüklenecek ve `kos_database.json` dosyasını oluşturacaktır.
+4. Ayarlar menüsünden Firebase bağlantı adresinizi, şifrelerinizi ve Discord Webhook URL'lerinizi yapılandırın.
+
 ---
 
 ## English
@@ -34,14 +40,11 @@
 * **Multi-Language Support:** Fully switchable between **English** and **Turkish** interfaces dynamically.
 * **Auto-Updater:** Automatically checks your GitHub repository for updates and prompts you to update seamlessly.
 
----
-
-## 📥 Kurulum / Installation
-
-1. EDMC uygulamasının kapalı olduğundan emin olun.
-2. Bu repodaki dosyaları indirin ve EDMC'nin eklenti dizinine (`%LOCALAPPDATA%\EDMarketConnector\plugins\`) **"Kos Tracker"** adında bir klasör açarak içine atın.
-3. EDMC'yi başlatın; eklenti otomatik olarak yüklenecek ve `kos_database.json` dosyasını oluşturacaktır.
-4. Ayarlar menüsünden Firebase bağlantı adresinizi, şifrelerinizi ve Discord Webhook URL'lerinizi yapılandırın.
+### 📥 Installation
+1. Make sure EDMC is completely closed.
+2. Download the files from this repository and place them into the EDMC plugins directory (`%LOCALAPPDATA%\EDMarketConnector\plugins\`) inside a new folder named **"Kos Tracker"**.
+3. Launch EDMC; the plugin will load automatically and generate the `kos_database.json` file.
+4. Configure your Firebase server URL, passwords, and Discord Webhook URLs from the settings menu.
 
 ---
 *Developed by Cmdr Yu-gen (Talon Order)*
